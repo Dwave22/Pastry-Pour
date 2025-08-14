@@ -82,7 +82,8 @@ text-align: center;
 
 
 .drink-image {
-
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -104,6 +105,22 @@ text-align: center;
   text-align: center;
 
 }
+.list-pastries{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+}
+
+.list-drinks{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+}
+
 
 @media(min-width:600px)
 
